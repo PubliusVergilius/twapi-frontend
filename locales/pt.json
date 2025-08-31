@@ -1,0 +1,16 @@
+{
+  "home": {
+    "postar": {
+      "placeholder": "Postar algo...",
+      "visibility": {
+        "title": "Quem pode repostar?",
+        "description": "Escolha que pode repostar este poste. Todos mencionados sempre poderão repostar.",
+        "text": "Todo mundo vê",
+        "everyone": "Todos",
+        "following": "Contas seguidas",
+        "verified": "Contas verficadas",
+        "mentions": "Só contas mencionadas"
+      }
+    }
+  }
+}

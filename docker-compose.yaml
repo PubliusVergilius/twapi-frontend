@@ -1,0 +1,13 @@
+services:
+  twapi-frontend:
+    image: "oven/bun:latest"
+    user: "${UID}:${GID}"
+    working_dir: /app
+    container_name: twapi-frontend
+    ports: 
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - BUN_ENV=development
+    command: sh -c "bun install && bun dev"
